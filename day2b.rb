@@ -1,3 +1,5 @@
+#!/usr/bin/env ruby
+
 valid_passwords = 0
 ARGF.each_line do |line|
     line.match(/^(?<i>[0-9]+)-(?<j>[0-9]+) (?<c>[a-z]): (?<pw>[a-z]+)$/) do |m|

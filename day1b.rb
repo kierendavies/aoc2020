@@ -1,3 +1,5 @@
+#!/usr/bin/env ruby
+
 require 'set'
 
 nums = ARGF.each_line.map(&:to_i).to_set
